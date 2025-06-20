@@ -1,0 +1,387 @@
+.Controlheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #B59410;
+    color: white;
+}
+.Leftheader{
+    display: flex;
+    align-items: center;
+}
+nav{
+    position: relative;
+    width: 524px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDDC5C;
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg, #FDDC5C, #B59410);
+    border-radius: 8px;
+    transition: 1s;
+}
+nav a:nth-child(1):hover~span{
+    left: 5px;
+}
+nav a:nth-child(2):hover~span{
+    left: 115px;
+}
+nav a:nth-child(3):hover~span{
+    left: 225px;
+}
+nav a:nth-child(4):hover~span{
+    left: 320px;
+}
+nav a:nth-child(5):hover~span{
+    left: 400px;
+}
+.logo{
+    height: 50px;
+    margin-right: 15px;
+}
+.name{
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+}
+.heroSection h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.heroSection p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.reviews h2,
+.BestSellingProducts h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.reviews p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+footer{
+    background-color: #B59410;
+}
+.BestSellingProducts{
+    background: #FDDC5C;
+    padding: 40px 20px;
+    
+}
+.BestSellingProductsgrid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.BestSelling{
+    /*Add light gold color*/
+    background: #B59410;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.BestSelling:hover{
+    transform: scale(1.05);
+}
+.BestSelling img{
+    width: 100%;
+    border-radius: 10px;
+}
+body{
+    background-color: #FDDC5C;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn1{
+    background-color: #B59410;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 22px;
+    padding: 10px 18px;
+    display: flex;
+    color:black;
+    text-decoration: none;
+}
+
+/*Contact form*/
+.form{
+    color:black;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+    
+}
+textarea{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input:focus-within{
+    outline: none;
+    border-color: #B59410;
+    border-width: 3px;
+}
+.location{
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+textarea:focus-within{
+    outline: none;
+    border-color: #B59410;
+    border-width: 3px;
+}
+.btn{
+    background-color: #B59410;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+.btn:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.hours h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 6px;
+}
+.hours ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 6px;
+    font-size: 20px;
+}
+.hours{
+    text-align: center;
+}
+.location h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.location p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+}
+/*store page*/
+
+h2{
+    font-size: 2em;
+    color: black;
+}
+.Productgrid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Product{
+    background: #B59410;
+    padding:15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.Product:hover{
+    transform: scale(1.05);
+}
+.Product h3{
+    margin:10px 0 5px;
+    color:black;
+}
+.storebtn, .blogbtn{
+    background: #FDDC5C;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.post{
+    background: #B59410;
+    padding: 15px;
+    gap:10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: left;
+}
+.post:hover{
+    transform: scale(1.05);
+}
+.post img{
+    width: 100%;
+    border-radius: 10px;
+}
+.article,
+.newsletter h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.post h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.post p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.newsletter p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.newsletter{
+    text-align: center;
+}
+.products h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.CalltoAction h2,
+.AboutMe h2,
+.ourMission h2,
+.owner h2,
+.WhyChooseUs h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.AboutMe,
+.ourMission,
+.owner,
+.WhyChooseUs ul li, .WhyChooseUs h2{
+    text-align: center;
+}
+.CalltoAction{
+    text-align: center;
+}
+.founder h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.CalltoAction p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.AboutMe p,
+.founder p,
+.ourMission p,
+.owner p,
+.WhyChooseUs ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.owner img{
+    border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.error {
+    border: 1px solid #ff0000;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+/* Loading skeleton styles */
+.loading-skeleton {
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+.loading-skeleton .image-placeholder {
+    width: 160px;
+    height: 160px;
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+
+.loading-skeleton h2,
+.loading-skeleton h3,
+.loading-skeleton button {
+    background: #e0e0e0;
+    color: transparent;
+    border: none;
+    height: 20px;
+    margin: 8px 0;
+}
+
+.loading-skeleton button {
+    width: 100px;
+    height: 30px;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+.hide{
+    display: none;
+}
+

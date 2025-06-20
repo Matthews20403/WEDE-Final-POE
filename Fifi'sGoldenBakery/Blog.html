@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/styling.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Javascript/scripts.js"></script>
+    <title>Blog | Fifi's Golden Bakery Tips & Recipes</title>
+    <meta name="description" content="Explore Fifi's Golden Bakery's blog for delicious baking tips, cake decorating ideas, seasonal recipes, and behind-the-scenes stories from our kitchen.">
+    <meta name="keywords" content="bakery blog, baking tips, cake decorating, bread recipes, cupcake ideas, bakery news, seasonal baking, behind the scenes bakery">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="Controlheader">
+        <div class="Leftheader">
+            <img src="_img/Fifi's Golden Bakery.png" Alt="Logo of the business" class="logo">
+            <h1 class="name">Fifi's Golden Bakery.</h1>
+        </div>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="About_us.html">About us</a>
+            <a href="Contact_us.html">Contact us</a>
+            <a href="Shop.html">Store</a>
+            <a href="Blog.html">Blog</a>
+            <span></span>        
+        </nav>
+    </header>
+
+    <div class="search-wrapper">
+        <input type="search" id="search" placeholder="search">
+    </div>
+
+    <h2 class="article">Articles</h2>
+    <section class="posts">
+        <article class="post">
+            <a href="_img/Blog Peanut Butter Cookies.PNG" data-lightbox="blog-gallery" data-title="How to make Peanut butter cookies.">
+                <img src="_img/Blog Peanut Butter Cookies.PNG" alt="Picture of peanut butter cookies" width="160">
+            </a>
+            <h3>How to make Peanut butter cookies.</h3>
+            <p>We are going to use three simple ingredients, the best part is that they are gluten free too....</p>
+            <Button class="blogbtn">Read More</Button>
+        </article>
+
+        <article class="post">
+            <a href="_img/Blog pic2 BREAD.jpg" data-lightbox="blog-gallery" data-title="The perfect bread recipe.">
+                <img src="_img/Blog pic2 BREAD.jpg" alt="Picture of Bread" width="160">
+            </a>
+            <h3>The perfect bread recipe.</h3>
+            <p>Learn the perfect recipe to make the fluffiest bread ever....</p>
+            <Button class="blogbtn">Read More</Button>
+        </article>
+        
+        <article class="post">
+            <a href="_img/Blog pic3 Piece of cake.jpg" data-lightbox="blog-gallery" data-title="5 Tips to bake the perfect cake.">
+                <img src="_img/Blog pic3 Piece of cake.jpg" alt="A piece of cake" width="160">
+            </a>
+            <h3>5Tips to bake the perfect cake.</h3>
+            <p>If you are struggling to make the perfect cake, here are 5 important tips....</p>
+            <Button class="blogbtn">Read More</Button>
+        </article>
+    </section>
+
+    <section class="newsletter">
+        <h2>Subscribe to newsletter</h2>
+        <p>Get recipes sent straight to your inbox.</p>
+        <form>
+            <input type="text" name="email" placeholder="email" required>
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </section>
+    <footer>
+        <p><strong>Visit our shop at:</strong> 9799 Phillipine Crescent, Cosmo City</p>
+        <strong><p>Contact us on:</p></strong>
+        <p>068 975 8162</p>
+        <p>&copy; 2025 Fifi's Golden Bakery. All Rights Reserved.</p>
+    </footer>
+    <!--Implementing gallery lightbox-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
